@@ -1,3 +1,82 @@
 header {
+    display: flex; border: 2px solid black;
+    padding: 0;
+}
+
+header img {
+    width: 500px;
+    height: 100%;
+}
+
+header p {
+    margin: 0;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    font-weight: 700;
+}
+
+header div {
     display: flex;
+    flex-direction: column;
+}
+
+header ul {
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main article {
+    display: flex;
+    align-content: center;
+}
+
+article img {
+    width: 500px;
+    height: 200px;
+    margin-right: 200px;
+
+}
+
+aside {
+    padding-right: 50px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    padding-top: 20px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer img {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
 }
